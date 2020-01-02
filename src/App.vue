@@ -1,12 +1,48 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <el-container  direction="vertical">
+      <keep-alive>
+        <el-menu
+                :default-active="this.$route.path"
+                router
+                class="el-menu-demo"
+                mode="horizontal"
+                background-color="#545c64"
+                text-color="#fff"
+                active-text-color="#ffd04b">
+          <el-menu-item
+                  v-for="(item,i) in navList"
+                  :key="i"
+                  :index="item.name">
+            {{item.navItem}}
+          </el-menu-item>
+        </el-menu>
+      </keep-alive>
+      <el-main>
+        <router-view/>
+      </el-main>
+    </el-container>
   </div>
 </template>
+
+
+
+<script>
+  export default {
+    data() {
+      return {
+        navList:[
+          {name:'/various_10',navItem:'10个服务'},
+          {name:'/various_30',navItem:'30个服务'},
+          {name:'/various_50',navItem:'50个服务'},
+        ]
+      };
+    },
+    methods: {
+
+    }
+  }
+</script>
 
 <style>
 #app {

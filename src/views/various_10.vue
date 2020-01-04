@@ -44,7 +44,7 @@ export default {
           right:'3%',
         },
         grid: {
-          left: '8%',
+          left: '13%',
           right: '4%',
           bottom: '20%',
           containLabel: false
@@ -98,7 +98,7 @@ export default {
           boundaryGap:false,
           name:'Cost($)',
           nameLocation:'center',
-          nameGap:30,
+          nameGap:40,
           splitLine: {
             lineStyle: {
               type: 'dotted',
@@ -123,28 +123,28 @@ export default {
             type:'line',
             symbol:'rect',
             symbolSize:'7',
-            data:[120, 132, 101, 134, 90, 230, 210,123,234,123]
+            data:[3492, 3573, 3724, 4198, 4657, 5394, 5874,6596,7273,7847]
           },
           {
             name:'MFO',
             type:'line',
             symbol:'circle',
             symbolSize:'7',
-            data:[220, 182, 191, 234, 290, 330, 310,123,134,244],
+            data:[3314, 3451, 3479, 4113, 4483, 5260, 5783,6405,7047,7692],
           },
           {
             name:'CSA',
             type:'line',
             symbol:'diamond',
             symbolSize:'7',
-            data:[150, 232, 201, 154, 190, 330, 410,122,121,213]
+            data:[3521, 3620, 3986, 4213, 4806, 5434, 5927,6649,7525,8242]
           },
           {
             name:'GA',
             type:'line',
             symbol:'triangle',
             symbolSize:'7',
-            data:[320, 332, 301, 334, 390, 330, 320,132,432,124]
+            data:[3725, 3874, 4231, 4410, 4815, 5591, 5994,6972,8217,8935]
           },
         ]
       });
@@ -167,7 +167,7 @@ export default {
           right:'3%',
         },
         grid: {
-          left: '8%',
+          left: '13%',
           right: '4%',
           bottom: '20%',
           containLabel: false
@@ -221,7 +221,7 @@ export default {
           boundaryGap:false,
           name:'Time(s)',
           nameLocation:'center',
-          nameGap:30,
+          nameGap:40,
           splitLine: {
             lineStyle: {
               type: 'dotted',
@@ -246,28 +246,28 @@ export default {
             type:'line',
             symbol:'rect',
             symbolSize:'7',
-            data:[120, 132, 101, 134, 90, 230, 210,123,234,123]
+            data:[1126, 1175, 1237, 1318, 1364, 1376, 1427,1489,1521,1547]
           },
           {
             name:'MFO',
             type:'line',
             symbol:'circle',
             symbolSize:'7',
-            data:[220, 182, 191, 234, 290, 330, 310,123,134,244],
+            data:[1179, 1127, 1195, 1243, 1276, 1319, 1386,1417,1478,1519],
           },
           {
             name:'CSA',
             type:'line',
             symbol:'diamond',
             symbolSize:'7',
-            data:[150, 232, 201, 154, 190, 330, 410,122,121,213]
+            data:[1151, 1218, 1274, 1382, 1407, 1489, 1509,1558,1564,1613]
           },
           {
             name:'GA',
             type:'line',
             symbol:'triangle',
             symbolSize:'7',
-            data:[320, 332, 301, 334, 390, 330, 320,132,432,124]
+            data:[1417, 1328, 1459, 1549, 1598, 1628, 1656,1678,1764,1813]
           },
         ]
       });
@@ -369,28 +369,28 @@ export default {
             type:'line',
             symbol:'rect',
             symbolSize:'7',
-            data:[120, 132, 101, 134, 90, 230, 210,123,234,123]
+            data:[81.2, 82.3, 82.5, 83.4, 82.8, 81.9, 82.4,81.9,82.3,81.9]
           },
           {
             name:'MFO',
             type:'line',
             symbol:'circle',
             symbolSize:'7',
-            data:[220, 182, 191, 234, 290, 330, 310,123,134,244],
+            data:[74.1, 75.7, 75.8, 75.1, 75.4, 75.8, 75.9,75.2,75.8,75.4],
           },
           {
             name:'CSA',
             type:'line',
             symbol:'diamond',
             symbolSize:'7',
-            data:[150, 232, 201, 154, 190, 330, 410,122,121,213]
+            data:[73.3, 75.1, 74.8, 74.6, 74.1, 74.9, 74.6,73.4,74.1,73.8]
           },
           {
             name:'GA',
             type:'line',
             symbol:'triangle',
             symbolSize:'7',
-            data:[320, 332, 301, 334, 390, 330, 320,132,432,124]
+            data:[72.4, 74.3, 73.2, 73.8, 73.5, 73.2, 73.7,72.8,73.4,72.3]
           },
         ]
       });
@@ -493,28 +493,28 @@ export default {
             type:'line',
             symbol:'rect',
             symbolSize:'7',
-            data:[120, 132, 101, 134, 90, 230, 210,123,234,123]
+            data:[81.2, 81.6, 81.5, 82.1, 82.0, 81.3, 81.5,82.4,82.3,81.7]
           },
           {
             name:'MFO',
             type:'line',
             symbol:'circle',
             symbolSize:'7',
-            data:[220, 182, 191, 234, 290, 330, 310,123,134,244],
+            data:[73.2, 73.3, 73.1, 72.8, 73.4, 73.7, 72.9,73.4,73.3,73.6],
           },
           {
             name:'CSA',
             type:'line',
             symbol:'diamond',
             symbolSize:'7',
-            data:[150, 232, 201, 154, 190, 330, 410,122,121,213]
+            data:[72.1, 71.1, 71.2, 71.5, 71.9, 72.4, 71.9,71.6,72.3,72.1]
           },
           {
             name:'GA',
             type:'line',
             symbol:'triangle',
             symbolSize:'7',
-            data:[320, 332, 301, 334, 390, 330, 320,132,432,124]
+            data:[70.2, 70.1, 69.8, 70.1, 71.2, 71.1, 70.2,70.4,71.2,70.7]
           },
         ]
       });

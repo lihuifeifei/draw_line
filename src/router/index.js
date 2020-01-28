@@ -7,6 +7,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    redirect:'/various_10',
     name: 'various_10',
     component: various_10
   },
